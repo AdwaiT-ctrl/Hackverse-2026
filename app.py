@@ -205,7 +205,7 @@ st.divider()
 
 with st.sidebar:
     st.header("⚙️ System Config")
-    api_key_input = st.text_input("Gemini API Key", type="password", value="AIzaSyBUPyg8e-mVERo7rpR_KWrM8PjI5SiLHfg")
+    api_key_input = st.text_input("Gemini API Key", type="password", value="**************************")
     uploaded_file = st.file_uploader("Upload Review Dataset (CSV)", type=["csv"])
     
     # We're building a cool global risk gauge for the sidebar to show the overall clinic health at a glance.
