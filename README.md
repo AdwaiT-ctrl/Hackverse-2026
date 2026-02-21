@@ -6,7 +6,7 @@ Multi-location healthcare groups generate thousands of patient reviews, but this
 ## Why We Chose This Problem
 We chose this problem because the gap between "knowing a patient is unhappy" and "knowing exactly how to fix the hospital" is massive. We wanted to build a tool that doesn't just do basic sentiment analysis, but acts as an autonomous Chief Operations Officer (COO)—translating raw text into a prioritized, financially-backed business roadmap.
 
-## 💡 Solution Overview
+## Solution Overview
 **ClinsightAI** is a real-time, AI-driven operational decision system. It ingests CSV datasets (or live text streams), dynamically maps semantic clusters, and outputs a board-ready dashboard. 
 
 **Key Features:**
@@ -44,5 +44,5 @@ Instead of presenting a static "Sentiment Score," ClinsightAI provides a **Prior
 3. Run the app: `streamlit run app.py`
 4. Upload `data/hospital.csv` into the sidebar and input your Gemini API key.
 
-## ⚖️ Compliance Statement
+## Compliance Statement
 No PHI (Protected Health Information) is included in our datasets. All data used is either publicly available (Kaggle) or synthetically generated. The AI models are used strictly for operational insights, not medical diagnosis.
