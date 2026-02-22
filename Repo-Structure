@@ -3,8 +3,6 @@ ClinsightAI-Cache Me Outside-Healthcare Decision Intelligence/
 ├── app.py                   # The main Streamlit application
 ├── requirements.txt         # Dependencies
 ├── README.md                # The documentation
-├── Presentation.pdf         # Our slide deck
-│
 ├── data/                    # Folder for datasets
 │   ├── hospital.csv         # The default Kaggle dataset
 │   └── test.csv             # The second dataset - test
